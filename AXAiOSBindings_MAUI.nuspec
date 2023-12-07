@@ -2,10 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>AXAiOSBindings_MAUI</id>
-    <version>2023.10.0</version>
+    <version>23.12.1</version>
     <authors>CA Technologies (A Broadcom Company)</authors>
     <license type="file">LICENSE.txt</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <readme>README.md</readme>
     <projectUrl>https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/it-operations-management/app-experience-analytics-saas/SaaS/configuring/collect-data-from-ios-applications.html</projectUrl>
     <description>CAMobileAppAnalytics is an iOS SDK for App Experience Analytics that provides deep insights into the performance, user experience, crash, and log analytics of apps.</description>
@@ -16,8 +15,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="/Users/arunakumariyarra/Desktop/CA/SDK/maa-ios-sdk/Xamarin/AXAiOSBindings_MAUI_stable/bin/Debug/net7.0-ios/AXAiOSBindings_MAUI.dll" target="lib/net7.0-ios16.1/AXAiOSBindings_MAUI.dll" />
-    <file src="/Users/arunakumariyarra/Desktop/CA/SDK/maa-ios-sdk/Xamarin/AXAiOSBindings_MAUI_stable/LICENSE.txt" target="LICENSE.txt" />
-    <file src="/Users/arunakumariyarra/Desktop/CA/SDK/maa-ios-sdk/Xamarin/AXAiOSBindings_MAUI_stable/README.md" target="/README.md" />
+    <file src="/Users/arunakumariyarra/Desktop/CA/PublishedSDKs/AXAiOSBindings_MAUI/AXAiOSBindings_MAUI.dll" target="lib/net7.0-ios16.1/AXAiOSBindings_MAUI.dll" />
+    <file src="/Users/arunakumariyarra/Desktop/CA/PublishedSDKs/AXAiOSBindings_MAUI/LICENSE.txt" target="LICENSE.txt" />
+    <file src="/Users/arunakumariyarra/Desktop/CA/PublishedSDKs/AXAiOSBindings_MAUI/README.md" target="/README.md" />
   </files>
 </package>
