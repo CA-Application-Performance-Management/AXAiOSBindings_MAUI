@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>AXAiOSBindings_MAUI</id>
-    <version>25.2.1</version>
+    <version>25.3.1</version>
     <authors>CA Technologies (A Broadcom Company)</authors>
     <license type="file">LICENSE.txt</license>
     <readme>README.md</readme>

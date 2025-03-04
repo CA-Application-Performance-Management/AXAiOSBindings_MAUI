@@ -1,18 +1,13 @@
-# Using AXA Bindings Library in .NET 7 MAUI
+# Using AXA Bindings Library in .NET MAUI apps
 
 ### Installation
 
 1. Open your project to add the `AXAiOSBindings_MAUI.dll` package.
 2. Right-click on **Dependencies**, select **Manage NuGet Packages**, and search the **AXAiOSBindings_MAUI.dll** file from the list in the Nuget packages window under the **nuget.org** Package source and then click **Add Package**.
 3. Add the `<app_name>_camdo.plist` file to your project as a bundle resource
-4. Edit the `xxx.csproj` file and set the TargetFramework condition for the `<app_name>_camdo.plist` file, reference as follows
-    ```csharp
-    Condition="'$(TargetFramework)'=='net7.0-ios"
-    ```
-
     For example:
     ```csharp
-    <ItemGroup Condition="'$(TargetFramework)'=='net7.0-ios'">
+    <ItemGroup>
         <BundleResource Include="xxx_camdo.plist" />
     </ItemGroup>
     ```
