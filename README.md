@@ -11,7 +11,15 @@
         <BundleResource Include="xxx_camdo.plist" />
     </ItemGroup>
     ```
-
+4. Add the following permissions to your application `Info.plist`, if not already present.
+    ```sh
+    <key>NSLocationWhenInUseUsageDescription</key>
+        <string>This allows us to track and gather analytic data for improving the app experience.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+        <string>This allows us to track and gather analytic data for improving the app experience.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+        <string>This allows us to track and gather analytic data for improving the app experience.</string>
+    ```
 ### Initialising the SDK in your Source Code
 
 Initialise the CAMobileAppAnalytics SDK in **MauiProgram.cs** in iOS **FinishedLaunching** event 
